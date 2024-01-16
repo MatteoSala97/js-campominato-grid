@@ -13,10 +13,12 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    padding-top: 20px;
 }
 
 #grid{
-    width: 80%;
+    width: 60%;
     margin: 0 auto; 
     display: flex;
     flex-wrap: wrap;
@@ -51,9 +53,22 @@ main{
     margin-inline: 20px;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
 header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
+
+    background-color: white;
+}
+
+figure img{
+    height: 100px;
+    width: 100px;
 }
