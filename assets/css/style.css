@@ -21,9 +21,9 @@ main{
     margin: 0 auto; 
     display: flex;
     flex-wrap: wrap;
-  
-    border: 1px solid white;
+}
 
+#grid.none{
     display: none;
 }
 
@@ -40,15 +40,19 @@ main{
 
 .active{
     background-color: aqua;
-
 }
 
-.btn-container{
-    padding: 20px;
-}
-
-.btn{
+.btnAdd,
+.btnRemove{
     width: 100px;
     height: 50px;
     background-color: azure;
+    margin-inline: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
