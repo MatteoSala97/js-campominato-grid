@@ -15,10 +15,24 @@
             </figure>
             <h1>Campo Booleato</h1>
         </div>
-        <button class="btn" id="btn">Toggle grid</button>
+        <div class="label-box">
+            <div class="label-container">
+                <label for="Easy">Easy</label>    
+                <input type="radio" id="Easy" name="difficulty" value="Easy">
+            </div>
+            <div class="label-container">
+                <label for="Medium">Medium</label>
+                <input type="radio" id="Medium" name="difficulty" value="Medium">
+            </div>
+            <div class="label-container">
+                <label for="Hard">Hard</label>
+                <input type="radio" id="Hard" name="difficulty" value="Hard">
+            </div>
+            <button class="btn" id="btn">Toggle grid</button>
+        </div>
     </header>
     <main>
-        <div id="grid"> 
+        <div id="grid" class="none"> 
         </div>
     </main>
 

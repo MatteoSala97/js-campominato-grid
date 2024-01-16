@@ -30,7 +30,6 @@ main{
 
 .box{
     border: 1px solid white; 
-    flex-basis: calc( 100% / 10);
     aspect-ratio: 1;
     color: white;
 
@@ -71,4 +70,13 @@ header{
 figure img{
     height: 100px;
     width: 100px;
+}
+
+.label-box{
+    display: flex;
+    align-items: center;
+}
+
+.label-container{
+    padding-inline: 10px;
 }
