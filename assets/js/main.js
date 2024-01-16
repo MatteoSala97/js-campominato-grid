@@ -1,4 +1,5 @@
 const gridHtml = document.getElementById("grid")
+const btnHtml = document.getElementById("btn")
 
 for (let i = 1; i <= 100; i++){
     //creates an empty div
@@ -14,5 +15,6 @@ for (let i = 1; i <= 100; i++){
 
 }
 
-
-
+btnHtml.addEventListener("click",function(){
+    gridHtml.classList.remove("none")
+})

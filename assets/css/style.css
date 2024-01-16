@@ -23,6 +23,8 @@ main{
     flex-wrap: wrap;
   
     border: 1px solid white;
+
+    display: none;
 }
 
 .box{
@@ -34,6 +36,11 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.active{
+    background-color: aqua;
+
 }
 
 .btn-container{
